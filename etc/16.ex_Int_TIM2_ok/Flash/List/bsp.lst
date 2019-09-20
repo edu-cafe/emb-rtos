@@ -1,0 +1,1349 @@
+###############################################################################
+#                                                                             #
+# IAR ANSI C/C++ Compiler V6.50.3.4676/W32 for ARM      23/Jun/2013  20:20:40 #
+# Copyright 1999-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Cpu mode     =  thumb                                                    #
+#    Endian       =  little                                                   #
+#    Source file  =  D:\Embedded2\현대모비스\RTOS_CM3\MyData\src_my\uCOS-II-M #
+#                    32_ok\EvalBoards\ST\MANGO-Z1\IAR\BSP\bsp.c               #
+#    Command line =  D:\Embedded2\현대모비스\RTOS_CM3\MyData\src_my\uCOS-II-M #
+#                    32_ok\EvalBoards\ST\MANGO-Z1\IAR\BSP\bsp.c -lCN          #
+#                    D:\Embedded2\현대모비스\RTOS_CM3\MyData\src_my\uCOS-II-M #
+#                    32_ok\EvalBoards\ST\MANGO-Z1\IAR\16.ex_Int_TIM2\Flash\Li #
+#                    st\ -o D:\Embedded2\현대모비스\RTOS_CM3\MyData\src_my\uC #
+#                    OS-II-M32_ok\EvalBoards\ST\MANGO-Z1\IAR\16.ex_Int_TIM2\F #
+#                    lash\Obj\ --no_cse --no_unroll --no_inline               #
+#                    --no_code_motion --no_tbaa --no_clustering               #
+#                    --no_scheduling --debug --endian=little --cpu=Cortex-M3  #
+#                    -e --fpu=None --dlib_config "C:\Program Files\IAR        #
+#                    Systems\Embedded Workbench 6.5\arm\INC\c\DLib_Config_Nor #
+#                    mal.h" -I D:\Embedded2\현대모비스\RTOS_CM3\MyData\src_my #
+#                    \uCOS-II-M32_ok\EvalBoards\ST\MANGO-Z1\IAR\16.ex_Int_TIM #
+#                    2\ -I D:\Embedded2\현대모비스\RTOS_CM3\MyData\src_my\uCO #
+#                    S-II-M32_ok\EvalBoards\ST\MANGO-Z1\IAR\16.ex_Int_TIM2\.. #
+#                    \BSP\ -I D:\Embedded2\현대모비스\RTOS_CM3\MyData\src_my\ #
+#                    uCOS-II-M32_ok\EvalBoards\ST\MANGO-Z1\IAR\16.ex_Int_TIM2 #
+#                    \..\..\..\..\..\CPU\ST\STM32\inc\ -I                     #
+#                    D:\Embedded2\현대모비스\RTOS_CM3\MyData\src_my\uCOS-II-M #
+#                    32_ok\EvalBoards\ST\MANGO-Z1\IAR\16.ex_Int_TIM2\..\..\.. #
+#                    \..\..\uC-CPU\ -I D:\Embedded2\현대모비스\RTOS_CM3\MyDat #
+#                    a\src_my\uCOS-II-M32_ok\EvalBoards\ST\MANGO-Z1\IAR\16.ex #
+#                    _Int_TIM2\..\..\..\..\..\uC-CPU\ARM-Cortex-M3\IAR\ -I    #
+#                    D:\Embedded2\현대모비스\RTOS_CM3\MyData\src_my\uCOS-II-M #
+#                    32_ok\EvalBoards\ST\MANGO-Z1\IAR\16.ex_Int_TIM2\..\..\.. #
+#                    \..\..\uC-LCD\Source\ -I D:\Embedded2\현대모비스\RTOS_CM #
+#                    3\MyData\src_my\uCOS-II-M32_ok\EvalBoards\ST\MANGO-Z1\IA #
+#                    R\16.ex_Int_TIM2\..\..\..\..\..\uC-LIB\ -I               #
+#                    D:\Embedded2\현대모비스\RTOS_CM3\MyData\src_my\uCOS-II-M #
+#                    32_ok\EvalBoards\ST\MANGO-Z1\IAR\16.ex_Int_TIM2\..\..\.. #
+#                    \..\..\uCOS-II\Ports\ARM-Cortex-M3\Generic\IAR\ -I       #
+#                    D:\Embedded2\현대모비스\RTOS_CM3\MyData\src_my\uCOS-II-M #
+#                    32_ok\EvalBoards\ST\MANGO-Z1\IAR\16.ex_Int_TIM2\..\..\.. #
+#                    \..\..\uCOS-II\Source\ -I D:\Embedded2\현대모비스\RTOS_C #
+#                    M3\MyData\src_my\uCOS-II-M32_ok\EvalBoards\ST\MANGO-Z1\I #
+#                    AR\16.ex_Int_TIM2\..\..\..\..\..\uC-Probe\Target\Communi #
+#                    cation\Generic\RS-232\Source\ -I                         #
+#                    D:\Embedded2\현대모비스\RTOS_CM3\MyData\src_my\uCOS-II-M #
+#                    32_ok\EvalBoards\ST\MANGO-Z1\IAR\16.ex_Int_TIM2\..\..\.. #
+#                    \..\..\uC-Probe\Target\Communication\Generic\RS-232\Port #
+#                    s\ST\STM32\ -I D:\Embedded2\현대모비스\RTOS_CM3\MyData\s #
+#                    rc_my\uCOS-II-M32_ok\EvalBoards\ST\MANGO-Z1\IAR\16.ex_In #
+#                    t_TIM2\..\..\..\..\..\uC-Probe\Target\Communication\Gene #
+#                    ric\Source\ -I D:\Embedded2\현대모비스\RTOS_CM3\MyData\s #
+#                    rc_my\uCOS-II-M32_ok\EvalBoards\ST\MANGO-Z1\IAR\16.ex_In #
+#                    t_TIM2\..\..\..\..\..\uC-Probe\Target\Plugins\uCOS-II\   #
+#                    -Ol --use_c++_inline                                     #
+#    List file    =  D:\Embedded2\현대모비스\RTOS_CM3\MyData\src_my\uCOS-II-M #
+#                    32_ok\EvalBoards\ST\MANGO-Z1\IAR\16.ex_Int_TIM2\Flash\Li #
+#                    st\bsp.lst                                               #
+#    Object file  =  D:\Embedded2\현대모비스\RTOS_CM3\MyData\src_my\uCOS-II-M #
+#                    32_ok\EvalBoards\ST\MANGO-Z1\IAR\16.ex_Int_TIM2\Flash\Ob #
+#                    j\bsp.o                                                  #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+D:\Embedded2\현대모비스\RTOS_CM3\MyData\src_my\uCOS-II-M32_ok\EvalBoards\ST\MANGO-Z1\IAR\BSP\bsp.c
+      1          /*
+      2          *********************************************************************************************************
+      3          *                                     MICIRUM BOARD SUPPORT PACKAGE
+      4          *
+      5          *                             (c) Copyright 2007; Micrium, Inc.; Weston, FL
+      6          *
+      7          *               All rights reserved.  Protected by international copyright laws.
+      8          *               Knowledge of the source code may NOT be used to develop a similar product.
+      9          *               Please help us continue to provide the Embedded community with the finest
+     10          *               software available.  Your honesty is greatly appreciated.
+     11          *********************************************************************************************************
+     12          */
+     13          
+     14          /*
+     15          *********************************************************************************************************
+     16          *
+     17          *                                        BOARD SUPPORT PACKAGE
+     18          *
+     19          *                                     ST Microelectronics STM32
+     20          *                                              with the
+     21          *                                   STM3210B-EVAL Evaluation Board
+     22          *
+     23          * Filename      : bsp.c
+     24          * Version       : V1.10
+     25          * Programmer(s) : BAN
+     26          *********************************************************************************************************
+     27          */
+     28          
+     29          /*
+     30          *********************************************************************************************************
+     31          *                                             INCLUDE FILES
+     32          *********************************************************************************************************
+     33          */
+     34          
+     35          #define  BSP_MODULE
+     36          #include <bsp.h>
+     37          
+     38          /*
+     39          *********************************************************************************************************
+     40          *                                            LOCAL DEFINES
+     41          *********************************************************************************************************
+     42          */
+     43                                                                          /* -------------------- GPIOA PINS -------------------- */
+     44          #define  BSP_GPIOA_PB_WAKEUP                      DEF_BIT_00
+     45          #define  BSP_GPIOA_UART1_TX                       DEF_BIT_09
+     46          #define  BSP_GPIOA_UART1_RX                       DEF_BIT_10
+     47          #define  BSP_GPIOA_LCD_BL                         DEF_BIT_14
+     48          
+     49                                                                          /* -------------------- GPIOB PINS -------------------- */
+     50          #define  BSP_GPIOB_LCD_CS                         DEF_BIT_02
+     51          #define  BSP_GPIOB_TEMP_INT                       DEF_BIT_05
+     52          #define  BSP_GPIOB_TEMP_SCL                       DEF_BIT_06
+     53          #define  BSP_GPIOB_TEMP_SDA                       DEF_BIT_07
+     54          #define  BSP_GPIOB_AUDIO_PWM                      DEF_BIT_08
+     55          #define  BSP_GPIOB_PB_KEY                         DEF_BIT_09
+     56          #define  BSP_GPIOB_LCD_SCL                        DEF_BIT_13
+     57          #define  BSP_GPIOB_LCD_SDO                        DEF_BIT_14
+     58          #define  BSP_GPIOB_LCD_SDI                        DEF_BIT_15
+     59          
+     60          //added by SOO
+     61          #define  BSP_GPIOB_LED1		DEF_BIT_09
+     62          #define  BSP_GPIOB_LED2		DEF_BIT_05
+     63          #define  BSP_GPIOB_LED3		DEF_BIT_08
+     64                                                                          /* -------------------- GPIOC PINS -------------------- */
+     65          #define  BSP_GPIOC_POT                            DEF_BIT_04
+     66          #define  BSP_GPIOC_LED1                           DEF_BIT_06
+     67          #define  BSP_GPIOC_LED2                           DEF_BIT_07
+     68          #define  BSP_GPIOC_LED3                           DEF_BIT_08
+     69          #define  BSP_GPIOC_LED4                           DEF_BIT_09
+     70          #define  BSP_GPIOC_PB_TAMPER                      DEF_BIT_13
+     71          
+     72                                                                          /* -------------------- GPIOD PINS -------------------- */
+     73          #define  BSP_GPIOD_CAN_RX                         DEF_BIT_00
+     74          #define  BSP_GPIOD_CAN_TX                         DEF_BIT_01
+     75          #define  BSP_GPIOD_UART2_CTS                      DEF_BIT_03
+     76          #define  BSP_GPIOD_UART2_RTS                      DEF_BIT_04
+     77          #define  BSP_GPIOD_UART2_TX                       DEF_BIT_05
+     78          #define  BSP_GPIOD_UART2_RX                       DEF_BIT_06
+     79          #define  BSP_GPIOD_LCD_RS                         DEF_BIT_07
+     80          #define  BSP_GPIOD_JOY_UP                         DEF_BIT_08
+     81          #define  BSP_GPIOD_JOY_SEL                        DEF_BIT_12
+     82          #define  BSP_GPIOD_JOY_DOWN                       DEF_BIT_14
+     83          #define  BSP_GPIOD_LCD_RD                         DEF_BIT_15
+     84          
+     85                                                                          /* -------------------- GPIOE PINS -------------------- */
+     86          #define  BSP_GPIOE_JOY_LEFT                       DEF_BIT_00
+     87          #define  BSP_GPIOE_JOY_RIGHT                      DEF_BIT_01
+     88          
+     89          /*
+     90          *********************************************************************************************************
+     91          *                                           LOCAL CONSTANTS
+     92          *********************************************************************************************************
+     93          */
+     94          
+     95          
+     96          /*
+     97          *********************************************************************************************************
+     98          *                                          LOCAL DATA TYPES
+     99          *********************************************************************************************************
+    100          */
+    101          
+    102          
+    103          /*
+    104          *********************************************************************************************************
+    105          *                                            LOCAL TABLES
+    106          *********************************************************************************************************
+    107          */
+    108          
+    109          
+    110          /*
+    111          *********************************************************************************************************
+    112          *                                       LOCAL GLOBAL VARIABLES
+    113          *********************************************************************************************************
+    114          */
+    115          
+    116          /*
+    117          *********************************************************************************************************
+    118          *                                      LOCAL FUNCTION PROTOTYPES
+    119          *********************************************************************************************************
+    120          */
+    121          
+    122          #if 0
+    123          static  void  BSP_ADC_Init     (void);
+    124          static  void  BSP_Joystick_Init(void);
+    125          static  void  BSP_PB_Init      (void);
+    126          #endif
+    127          
+    128          static  void  BSP_LED_Init     (void);
+    129          
+    130          
+    131          /*
+    132          *********************************************************************************************************
+    133          *                                     LOCAL CONFIGURATION ERRORS
+    134          *********************************************************************************************************
+    135          */
+    136          
+    137          
+    138          /*
+    139          *********************************************************************************************************
+    140          *                                               BSP_Init()
+    141          *
+    142          * Description : Initialize the Board Support Package (BSP).
+    143          *
+    144          * Argument(s) : none.
+    145          *
+    146          * Return(s)   : none.
+    147          *
+    148          * Caller(s)   : Application.
+    149          *
+    150          * Note(s)     : (1) This function SHOULD be called before any other BSP function is called.
+    151          *********************************************************************************************************
+    152          */
+    153          
+
+   \                                 In section .text, align 2, keep-with-next
+    154          void  BSP_Init (void)
+    155          {
+   \                     BSP_Init:
+   \   00000000   0xB580             PUSH     {R7,LR}
+    156              RCC_DeInit();
+   \   00000002   0x.... 0x....      BL       RCC_DeInit
+    157              RCC_HSEConfig(RCC_HSE_ON);
+   \   00000006   0xF45F 0x3080      MOVS     R0,#+65536
+   \   0000000A   0x.... 0x....      BL       RCC_HSEConfig
+    158              RCC_WaitForHSEStartUp();
+   \   0000000E   0x.... 0x....      BL       RCC_WaitForHSEStartUp
+    159          
+    160          
+    161              RCC_HCLKConfig(RCC_SYSCLK_Div1);
+   \   00000012   0x2000             MOVS     R0,#+0
+   \   00000014   0x.... 0x....      BL       RCC_HCLKConfig
+    162              RCC_PCLK2Config(RCC_HCLK_Div1);
+   \   00000018   0x2000             MOVS     R0,#+0
+   \   0000001A   0x.... 0x....      BL       RCC_PCLK2Config
+    163              RCC_PCLK1Config(RCC_HCLK_Div2);
+   \   0000001E   0xF44F 0x6080      MOV      R0,#+1024
+   \   00000022   0x.... 0x....      BL       RCC_PCLK1Config
+    164              RCC_ADCCLKConfig(RCC_PCLK2_Div6);
+   \   00000026   0xF44F 0x4000      MOV      R0,#+32768
+   \   0000002A   0x.... 0x....      BL       RCC_ADCCLKConfig
+    165              FLASH_SetLatency(FLASH_Latency_2);
+   \   0000002E   0x2002             MOVS     R0,#+2
+   \   00000030   0x.... 0x....      BL       FLASH_SetLatency
+    166              FLASH_PrefetchBufferCmd(FLASH_PrefetchBuffer_Enable);
+   \   00000034   0x2010             MOVS     R0,#+16
+   \   00000036   0x.... 0x....      BL       FLASH_PrefetchBufferCmd
+    167              
+    168              //changed by SOO
+    169              //RCC_PLLConfig(RCC_PLLSource_HSE_Div1, RCC_PLLMul_9);
+    170              RCC_PLLConfig(RCC_PLLSource_HSE_Div1, RCC_PLLMul_6);
+   \   0000003A   0xF45F 0x1180      MOVS     R1,#+1048576
+   \   0000003E   0xF45F 0x3080      MOVS     R0,#+65536
+   \   00000042   0x.... 0x....      BL       RCC_PLLConfig
+    171              
+    172              RCC_PLLCmd(ENABLE);
+   \   00000046   0x2001             MOVS     R0,#+1
+   \   00000048   0x.... 0x....      BL       RCC_PLLCmd
+    173          
+    174              while (RCC_GetFlagStatus(RCC_FLAG_PLLRDY) == RESET) {
+   \                     ??BSP_Init_0:
+   \   0000004C   0x2039             MOVS     R0,#+57
+   \   0000004E   0x.... 0x....      BL       RCC_GetFlagStatus
+   \   00000052   0x2800             CMP      R0,#+0
+   \   00000054   0xD0FA             BEQ.N    ??BSP_Init_0
+    175                  ;
+    176              }
+    177          
+    178              RCC_SYSCLKConfig(RCC_SYSCLKSource_PLLCLK);
+   \   00000056   0x2002             MOVS     R0,#+2
+   \   00000058   0x.... 0x....      BL       RCC_SYSCLKConfig
+    179          
+    180              while (RCC_GetSYSCLKSource() != 0x08) {
+   \                     ??BSP_Init_1:
+   \   0000005C   0x.... 0x....      BL       RCC_GetSYSCLKSource
+   \   00000060   0x2808             CMP      R0,#+8
+   \   00000062   0xD1FB             BNE.N    ??BSP_Init_1
+    181                  ;
+    182              }
+    183          
+    184          	//changed by SOO
+    185          #ifdef SOO
+    186              BSP_ADC_Init();                                             /* Initialize the I/Os for the ADC      controls.       */
+    187              BSP_LED_Init();                                             /* Initialize the I/Os for the LED      controls.       */
+    188              BSP_PB_Init();                                              /* Initialize the I/Os for the PB       control.        */
+    189              BSP_Joystick_Init();                                        /* Initialize the I/Os for the Joystick control.        */
+    190          
+    191              STM3210B_LCD_Init();
+    192              LCD_Clear(0xFFFF);
+    193          #endif
+    194              
+    195              //BSP_ADC_Init();                                             /* Initialize the I/Os for the ADC      controls.       */
+    196              BSP_LED_Init();                                             /* Initialize the I/Os for the LED      controls.       */
+   \   00000064   0x.... 0x....      BL       BSP_LED_Init
+    197              //BSP_PB_Init();                                              /* Initialize the I/Os for the PB       control.        */
+    198              //BSP_Joystick_Init();                                        /* Initialize the I/Os for the Joystick control.        */
+    199          
+    200              //STM3210B_LCD_Init();
+    201              //LCD_Clear(0xFFFF);
+    202          }
+   \   00000068   0xBD01             POP      {R0,PC}          ;; return
+    203          
+    204          /*
+    205          *********************************************************************************************************
+    206          *                                            BSP_CPU_ClkFreq()
+    207          *
+    208          * Description : Read CPU registers to determine the CPU clock frequency of the chip.
+    209          *
+    210          * Argument(s) : none.
+    211          *
+    212          * Return(s)   : The CPU clock frequency, in Hz.
+    213          *
+    214          * Caller(s)   : Application.
+    215          *
+    216          * Note(s)     : none.
+    217          *********************************************************************************************************
+    218          */
+    219          
+
+   \                                 In section .text, align 2, keep-with-next
+    220          CPU_INT32U  BSP_CPU_ClkFreq (void)
+    221          {
+   \                     BSP_CPU_ClkFreq:
+   \   00000000   0xB500             PUSH     {LR}
+   \   00000002   0xB085             SUB      SP,SP,#+20
+    222              RCC_ClocksTypeDef  rcc_clocks;
+    223          
+    224          
+    225              RCC_GetClocksFreq(&rcc_clocks);
+   \   00000004   0xA800             ADD      R0,SP,#+0
+   \   00000006   0x.... 0x....      BL       RCC_GetClocksFreq
+    226          
+    227              return ((CPU_INT32U)rcc_clocks.HCLK_Frequency);
+   \   0000000A   0x9801             LDR      R0,[SP, #+4]
+   \   0000000C   0xB005             ADD      SP,SP,#+20
+   \   0000000E   0xBD00             POP      {PC}             ;; return
+    228          }
+    229          
+    230          
+    231          
+    232          /*
+    233          *********************************************************************************************************
+    234          *********************************************************************************************************
+    235          *                                         OS CORTEX-M3 FUNCTIONS
+    236          *********************************************************************************************************
+    237          *********************************************************************************************************
+    238          */
+    239          
+    240          /*
+    241          *********************************************************************************************************
+    242          *                                         OS_CPU_SysTickClkFreq()
+    243          *
+    244          * Description : Get system tick clock frequency.
+    245          *
+    246          * Argument(s) : none.
+    247          *
+    248          * Return(s)   : Clock frequency (of system tick).
+    249          *
+    250          * Caller(s)   : BSP_Init().
+    251          *
+    252          * Note(s)     : none.
+    253          *********************************************************************************************************
+    254          */
+    255          
+
+   \                                 In section .text, align 2, keep-with-next
+    256          INT32U  OS_CPU_SysTickClkFreq (void)
+    257          {
+   \                     OS_CPU_SysTickClkFreq:
+   \   00000000   0xB580             PUSH     {R7,LR}
+    258              INT32U  freq;
+    259          
+    260          
+    261              freq = BSP_CPU_ClkFreq();
+   \   00000002   0x.... 0x....      BL       BSP_CPU_ClkFreq
+    262              return (freq);
+   \   00000006   0xBD02             POP      {R1,PC}          ;; return
+    263          }
+    264          
+    265          
+    266          #if 0
+    267          
+    268          
+    269          /*
+    270          *********************************************************************************************************
+    271          *********************************************************************************************************
+    272          *                                              ADC FUNCTIONS
+    273          *********************************************************************************************************
+    274          *********************************************************************************************************
+    275          */
+    276          
+    277          /*
+    278          *********************************************************************************************************
+    279          *                                             BSP_ADC_Init()
+    280          *
+    281          * Description : Initialize the board's ADC
+    282          *
+    283          * Argument(s) : none.
+    284          *
+    285          * Return(s)   : none.
+    286          *
+    287          * Caller(s)   : BSP_Init().
+    288          *
+    289          * Note(s)     : none.
+    290          *********************************************************************************************************
+    291          */
+    292          
+    293          static  void  BSP_ADC_Init (void)
+    294          {
+    295              ADC_InitTypeDef   adc_init;
+    296              GPIO_InitTypeDef  gpio_init;
+    297          
+    298          
+    299              RCC_APB2PeriphClockCmd(RCC_APB2Periph_ADC1, ENABLE);
+    300              RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
+    301          
+    302              gpio_init.GPIO_Pin  = GPIO_Pin_4;
+    303              gpio_init.GPIO_Mode = GPIO_Mode_AIN;
+    304              GPIO_Init(GPIOC, &gpio_init);
+    305          
+    306              adc_init.ADC_Mode               = ADC_Mode_Independent;
+    307              adc_init.ADC_ScanConvMode       = DISABLE;
+    308              adc_init.ADC_ContinuousConvMode = ENABLE;
+    309              adc_init.ADC_ExternalTrigConv   = ADC_ExternalTrigConv_None;
+    310              adc_init.ADC_DataAlign          = ADC_DataAlign_Right;
+    311              adc_init.ADC_NbrOfChannel       = 1;
+    312              ADC_Init(ADC1, &adc_init);
+    313          
+    314              ADC_RegularChannelConfig(ADC1, ADC_Channel_14, 1, ADC_SampleTime_13Cycles5);
+    315              ADC_Cmd(ADC1, ENABLE);
+    316              ADC_SoftwareStartConvCmd(ADC1, ENABLE);
+    317          }
+    318          
+    319          
+    320          /*
+    321          *********************************************************************************************************
+    322          *                                           BSP_ADC_GetStatus()
+    323          *
+    324          * Description : This function initializes the board's ADC
+    325          *
+    326          * Argument(s) : adc             ID of the ADC to probe.  For this board, the only legitimate value is 1.
+    327          *
+    328          * Return(s)   : The numerator of the binary fraction representing the result of the latest ADC conversion.
+    329          *               This value will be a 12-bit value between 0x0000 and 0x0FFF, inclusive.
+    330          *
+    331          * Caller(s)   : Application.
+    332          *
+    333          * Note(s)     : none.
+    334          *********************************************************************************************************
+    335          */
+    336          
+    337          CPU_INT16U  BSP_ADC_GetStatus (CPU_INT08U  adc)
+    338          {
+    339              CPU_INT16U  result;
+    340          
+    341          
+    342              result = 0;
+    343          
+    344              if (adc == 1) {
+    345                  result = ADC_GetConversionValue(ADC1);
+    346              }
+    347          
+    348              return (result);
+    349          }
+    350          
+    351          /*
+    352          *********************************************************************************************************
+    353          *********************************************************************************************************
+    354          *                                               PB FUNCTIONS
+    355          *********************************************************************************************************
+    356          *********************************************************************************************************
+    357          */
+    358          
+    359          /*
+    360          *********************************************************************************************************
+    361          *                                              BSP_PB_Init()
+    362          *
+    363          * Description : Initialize the board's PB.
+    364          *
+    365          * Argument(s) : none.
+    366          *
+    367          * Return(s)   : none.
+    368          *
+    369          * Caller(s)   : BSP_Init().
+    370          *
+    371          * Note(s)     : none.
+    372          *********************************************************************************************************
+    373          */
+    374          
+    375          static  void  BSP_PB_Init (void)
+    376          {
+    377              GPIO_InitTypeDef  gpio_init;
+    378          
+    379          
+    380              RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);
+    381              gpio_init.GPIO_Pin  = BSP_GPIOA_PB_WAKEUP;
+    382              gpio_init.GPIO_Mode = GPIO_Mode_IN_FLOATING;
+    383              GPIO_Init(GPIOB, &gpio_init);
+    384          
+    385          //deleted by SOO
+    386          #if SOO
+    387              RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE);
+    388              gpio_init.GPIO_Pin  = BSP_GPIOB_PB_KEY;
+    389              gpio_init.GPIO_Mode = GPIO_Mode_IN_FLOATING;
+    390              GPIO_Init(GPIOB, &gpio_init);
+    391          #endif
+    392          
+    393              RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
+    394              gpio_init.GPIO_Pin  = BSP_GPIOC_PB_TAMPER;
+    395              gpio_init.GPIO_Mode = GPIO_Mode_IN_FLOATING;
+    396              GPIO_Init(GPIOB, &gpio_init);
+    397          }
+    398          
+    399          /*
+    400          *********************************************************************************************************
+    401          *                                           BSP_PB_GetStatus()
+    402          *
+    403          * Description : Get the status of a push button on the board.
+    404          *
+    405          * Argument(s) : pb      The ID of the push button to probe
+    406          *
+    407          *                       1    probe the user push button
+    408          *
+    409          * Return(s)   : DEF_FALSE   if the push button is pressed.
+    410          *               DEF_TRUE    if the push button is not pressed.
+    411          *
+    412          * Caller(s)   : Application.
+    413          *
+    414          * Note(s)     : none.
+    415          *********************************************************************************************************
+    416          */
+    417          
+    418          CPU_BOOLEAN  BSP_PB_GetStatus (CPU_INT08U pb)
+    419          {
+    420              CPU_BOOLEAN  status;
+    421              CPU_INT32U   pin;
+    422          
+    423          
+    424              status = DEF_FALSE;
+    425          
+    426              switch (pb) {
+    427                  case BSP_PB_ID_KEY:
+    428                       pin = GPIO_ReadInputDataBit(GPIOB, BSP_GPIOB_PB_KEY);
+    429                       if (pin == 0) {
+    430                           status = DEF_TRUE;
+    431                       }
+    432                       break;
+    433          
+    434                  case BSP_PB_ID_WAKEUP:
+    435                       pin = GPIO_ReadInputDataBit(GPIOA, BSP_GPIOA_PB_WAKEUP);
+    436                       if (pin == 0) {
+    437                           status = DEF_TRUE;
+    438                       }
+    439                       break;
+    440          
+    441                  case BSP_PB_ID_TAMPER:
+    442                       pin = GPIO_ReadInputDataBit(GPIOC, BSP_GPIOC_PB_TAMPER);
+    443                       if (pin == 0) {
+    444                           status = DEF_TRUE;
+    445                       }
+    446                       break;
+    447          
+    448                  default:
+    449                       break;
+    450              }
+    451          
+    452              return (status);
+    453          }
+    454          
+    455          /*
+    456          *********************************************************************************************************
+    457          *********************************************************************************************************
+    458          *                                           JOYSTICK FUNCTIONS
+    459          *********************************************************************************************************
+    460          *********************************************************************************************************
+    461          */
+    462          
+    463          /*
+    464          *********************************************************************************************************
+    465          *                                           BSP_Joystick_Init()
+    466          *
+    467          * Description : Initialize the board's joystick.
+    468          *
+    469          * Argument(s) : none.
+    470          *
+    471          * Return(s)   : none.
+    472          *
+    473          * Caller(s)   : BSP_Init().
+    474          *
+    475          * Note(s)     : none.
+    476          *********************************************************************************************************
+    477          */
+    478          
+    479          static  void  BSP_Joystick_Init (void)
+    480          {
+    481              GPIO_InitTypeDef  gpio_init;
+    482          
+    483          
+    484              RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD | RCC_APB2Periph_GPIOE, ENABLE);
+    485          
+    486                                                                          /* Configure JOY_UP, JOY_SEL, JOY_DOWN.                 */
+    487              gpio_init.GPIO_Pin  = BSP_GPIOD_JOY_UP | BSP_GPIOD_JOY_SEL | BSP_GPIOD_JOY_DOWN;
+    488              gpio_init.GPIO_Mode = GPIO_Mode_IN_FLOATING;
+    489              GPIO_Init(GPIOD, &gpio_init);
+    490          
+    491                                                                          /* Configure JOY_LEFT & JOY_RIGHT.                      */
+    492              gpio_init.GPIO_Pin  = BSP_GPIOE_JOY_LEFT | BSP_GPIOE_JOY_RIGHT;
+    493              gpio_init.GPIO_Mode = GPIO_Mode_IN_FLOATING;
+    494              GPIO_Init(GPIOE, &gpio_init);
+    495          }
+    496          
+    497          /*
+    498          *********************************************************************************************************
+    499          *                                        BSP_Joystick_GetStatus()
+    500          *
+    501          * Description : Get the status of the joystick on the board.
+    502          *
+    503          * Argument(s) : none.
+    504          *
+    505          * Return(s)   : Bit-mapped status of joystick :
+    506          *
+    507          *                   BSP_JOYSTICK_CENTER     if the joystick is being pressed.
+    508          *                   BSP_JOYSTICK_LEFT       if the joystick is toggled left.
+    509          *                   BSP_JOYSTICK_RIGHT      if the joystick is toggled right.
+    510          *                   BSP_JOYSTICK_UP         if the joystick is toggled up.
+    511          *                   BSP_JOYSTICK_DOWN       if the joystick is toggled down.
+    512          *
+    513          * Caller(s)   : Application.
+    514          *
+    515          * Note(s)     : none.
+    516          *********************************************************************************************************
+    517          */
+    518          
+    519          CPU_INT32U  BSP_Joystick_GetStatus (void)
+    520          {
+    521              CPU_BOOLEAN  pin;
+    522              CPU_BOOLEAN  status;
+    523          
+    524              status = 0;
+    525          
+    526              pin    = GPIO_ReadInputDataBit(GPIOE, BSP_GPIOE_JOY_RIGHT);
+    527              if (pin == 0) {
+    528                  status |= BSP_JOYSTICK_LEFT;
+    529              }
+    530          
+    531              pin    = GPIO_ReadInputDataBit(GPIOE, BSP_GPIOE_JOY_LEFT);
+    532              if (pin == 0) {
+    533                  status |= BSP_JOYSTICK_RIGHT;
+    534              }
+    535          
+    536              pin    = GPIO_ReadInputDataBit(GPIOD, BSP_GPIOD_JOY_UP);
+    537              if (pin == 0) {
+    538                  status |= BSP_JOYSTICK_UP;
+    539              }
+    540          
+    541              pin    = GPIO_ReadInputDataBit(GPIOD, BSP_GPIOD_JOY_DOWN);
+    542              if (pin == 0) {
+    543                  status |= BSP_JOYSTICK_DOWN;
+    544              }
+    545          
+    546              pin    = GPIO_ReadInputDataBit(GPIOD, BSP_GPIOD_JOY_SEL);
+    547              if (pin == 0) {
+    548                  status |= BSP_JOYSTICK_CENTER;
+    549              }
+    550          
+    551              return (status);
+    552          }
+    553          
+    554          #endif
+    555          
+    556          /*
+    557          *********************************************************************************************************
+    558          *********************************************************************************************************
+    559          *                                              LED FUNCTIONS
+    560          *********************************************************************************************************
+    561          *********************************************************************************************************
+    562          */
+    563          
+    564          /*
+    565          *********************************************************************************************************
+    566          *                                             BSP_LED_Init()
+    567          *
+    568          * Description : Initialize the I/O for the LEDs
+    569          *
+    570          * Argument(s) : none.
+    571          *
+    572          * Return(s)   : none.
+    573          *
+    574          * Caller(s)   : BSP_Init().
+    575          *
+    576          * Note(s)     : none.
+    577          *********************************************************************************************************
+    578          */
+    579          
+
+   \                                 In section .text, align 2, keep-with-next
+    580          static  void  BSP_LED_Init (void)
+    581          {
+   \                     BSP_LED_Init:
+   \   00000000   0xB580             PUSH     {R7,LR}
+    582              GPIO_InitTypeDef  gpio_init;
+    583          
+    584          
+    585          	//changed by SOO
+    586              //RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE);
+    587              //gpio_init.GPIO_Pin   = BSP_GPIOC_LED1 | BSP_GPIOC_LED2 | BSP_GPIOC_LED3 | BSP_GPIOC_LED4;
+    588              RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB, ENABLE); 
+   \   00000002   0x2101             MOVS     R1,#+1
+   \   00000004   0x2008             MOVS     R0,#+8
+   \   00000006   0x.... 0x....      BL       RCC_APB2PeriphClockCmd
+    589              gpio_init.GPIO_Pin   = BSP_GPIOB_LED1 | BSP_GPIOB_LED2 | BSP_GPIOB_LED3;
+   \   0000000A   0xF44F 0x7048      MOV      R0,#+800
+   \   0000000E   0xF8AD 0x0000      STRH     R0,[SP, #+0]
+    590              
+    591              gpio_init.GPIO_Speed = GPIO_Speed_50MHz;
+   \   00000012   0x2003             MOVS     R0,#+3
+   \   00000014   0xF88D 0x0002      STRB     R0,[SP, #+2]
+    592              gpio_init.GPIO_Mode  = GPIO_Mode_Out_PP;
+   \   00000018   0x2010             MOVS     R0,#+16
+   \   0000001A   0xF88D 0x0003      STRB     R0,[SP, #+3]
+    593              
+    594              //changed by SOO
+    595              //GPIO_Init(GPIOC, &gpio_init);
+    596              GPIO_Init(GPIOB, &gpio_init);
+   \   0000001E   0xA900             ADD      R1,SP,#+0
+   \   00000020   0x....             LDR.N    R0,??DataTable3  ;; 0x40010c00
+   \   00000022   0x.... 0x....      BL       GPIO_Init
+    597          }
+   \   00000026   0xBD01             POP      {R0,PC}          ;; return
+    598          
+    599          /*
+    600          *********************************************************************************************************
+    601          *                                             BSP_LED_On()
+    602          *
+    603          * Description : Turn ON any or all the LEDs on the board.
+    604          *
+    605          * Argument(s) : led     The ID of the LED to control:
+    606          *
+    607          *                       0    turn ON all LEDs on the board
+    608          *                       1    turn ON LED 1
+    609          *                       2    turn ON LED 2
+    610          *                       3    turn ON LED 3
+    611          *                       4    turn ON LED 4
+    612          *
+    613          * Return(s)   : none.
+    614          *
+    615          * Caller(s)   : Application.
+    616          *
+    617          * Note(s)     : none.
+    618          *********************************************************************************************************
+    619          */
+    620          
+    621          //changed by SOO
+    622          #ifdef SOO
+    623          void  BSP_LED_On (CPU_INT08U led)
+    624          {
+    625              switch (led) {
+    626                  case 0:
+    627                       GPIO_SetBits(GPIOC, BSP_GPIOC_LED1 | BSP_GPIOC_LED2 | BSP_GPIOC_LED3 | BSP_GPIOC_LED4);
+    628                       break;
+    629          
+    630                  case 1:
+    631                       GPIO_SetBits(GPIOC, BSP_GPIOC_LED1);
+    632                       break;
+    633          
+    634                  case 2:
+    635                       GPIO_SetBits(GPIOC, BSP_GPIOC_LED2);
+    636                       break;
+    637          
+    638                  case 3:
+    639                       GPIO_SetBits(GPIOC, BSP_GPIOC_LED3);
+    640                       break;
+    641          
+    642                  case 4:
+    643                       GPIO_SetBits(GPIOC, BSP_GPIOC_LED4);
+    644                       break;
+    645          
+    646                  default:
+    647                       break;
+    648              }
+    649          }
+    650          #endif
+
+   \                                 In section .text, align 2, keep-with-next
+    651          void  BSP_LED_On (CPU_INT08U led)
+    652          {
+   \                     BSP_LED_On:
+   \   00000000   0xB580             PUSH     {R7,LR}
+    653              switch (led) {
+   \   00000002   0xB2C0             UXTB     R0,R0            ;; ZeroExt  R0,R0,#+24,#+24
+   \   00000004   0x2800             CMP      R0,#+0
+   \   00000006   0xD005             BEQ.N    ??BSP_LED_On_0
+   \   00000008   0x2802             CMP      R0,#+2
+   \   0000000A   0xD00F             BEQ.N    ??BSP_LED_On_1
+   \   0000000C   0xD308             BCC.N    ??BSP_LED_On_2
+   \   0000000E   0x2803             CMP      R0,#+3
+   \   00000010   0xD011             BEQ.N    ??BSP_LED_On_3
+   \   00000012   0xE016             B.N      ??BSP_LED_On_4
+    654                  case 0:
+    655                       GPIO_ResetBits(GPIOB, BSP_GPIOB_LED1 | BSP_GPIOB_LED2 | BSP_GPIOB_LED3);
+   \                     ??BSP_LED_On_0:
+   \   00000014   0xF44F 0x7148      MOV      R1,#+800
+   \   00000018   0x....             LDR.N    R0,??DataTable3  ;; 0x40010c00
+   \   0000001A   0x.... 0x....      BL       GPIO_ResetBits
+    656                       break;
+   \   0000001E   0xE010             B.N      ??BSP_LED_On_5
+    657          
+    658                  case 1:
+    659                       GPIO_ResetBits(GPIOB, BSP_GPIOB_LED1);
+   \                     ??BSP_LED_On_2:
+   \   00000020   0xF44F 0x7100      MOV      R1,#+512
+   \   00000024   0x....             LDR.N    R0,??DataTable3  ;; 0x40010c00
+   \   00000026   0x.... 0x....      BL       GPIO_ResetBits
+    660                       break;
+   \   0000002A   0xE00A             B.N      ??BSP_LED_On_5
+    661          
+    662                  case 2:
+    663                       GPIO_ResetBits(GPIOB, BSP_GPIOB_LED2);
+   \                     ??BSP_LED_On_1:
+   \   0000002C   0x2120             MOVS     R1,#+32
+   \   0000002E   0x....             LDR.N    R0,??DataTable3  ;; 0x40010c00
+   \   00000030   0x.... 0x....      BL       GPIO_ResetBits
+    664                       break;
+   \   00000034   0xE005             B.N      ??BSP_LED_On_5
+    665          
+    666                  case 3:
+    667                       GPIO_ResetBits(GPIOB, BSP_GPIOB_LED3);
+   \                     ??BSP_LED_On_3:
+   \   00000036   0xF44F 0x7180      MOV      R1,#+256
+   \   0000003A   0x....             LDR.N    R0,??DataTable3  ;; 0x40010c00
+   \   0000003C   0x.... 0x....      BL       GPIO_ResetBits
+    668                       break;
+   \   00000040   0xE7FF             B.N      ??BSP_LED_On_5
+    669          
+    670                  default:
+    671                       break;
+    672              }
+    673          }
+   \                     ??BSP_LED_On_4:
+   \                     ??BSP_LED_On_5:
+   \   00000042   0xBD01             POP      {R0,PC}          ;; return
+    674          
+    675          /*
+    676          *********************************************************************************************************
+    677          *                                              BSP_LED_Off()
+    678          *
+    679          * Description : Turn OFF any or all the LEDs on the board.
+    680          *
+    681          * Argument(s) : led     The ID of the LED to control:
+    682          *
+    683          *                       0    turn OFF all LEDs on the board
+    684          *                       1    turn OFF LED 1
+    685          *                       2    turn OFF LED 2
+    686          *                       3    turn OFF LED 3
+    687          *                       4    turn OFF LED 4
+    688          *
+    689          * Return(s)   : none.
+    690          *
+    691          * Caller(s)   : Application.
+    692          *
+    693          * Note(s)     : none.
+    694          *********************************************************************************************************
+    695          */
+    696          
+    697          //changed by SOO
+    698          #ifdef SOO
+    699          void  BSP_LED_Off (CPU_INT08U led)
+    700          {
+    701              switch (led) {
+    702                  case 0:
+    703                       GPIO_ResetBits(GPIOC, BSP_GPIOC_LED1 | BSP_GPIOC_LED2 | BSP_GPIOC_LED3 | BSP_GPIOC_LED4);
+    704                       break;
+    705          
+    706                  case 1:
+    707                       GPIO_ResetBits(GPIOC, BSP_GPIOC_LED1);
+    708                       break;
+    709          
+    710                  case 2:
+    711                       GPIO_ResetBits(GPIOC, BSP_GPIOC_LED2);
+    712                       break;
+    713          
+    714                  case 3:
+    715                       GPIO_ResetBits(GPIOC, BSP_GPIOC_LED3);
+    716                       break;
+    717          
+    718                  case 4:
+    719                       GPIO_ResetBits(GPIOC, BSP_GPIOC_LED4);
+    720                       break;
+    721          
+    722                  default:
+    723                       break;
+    724              }
+    725          }
+    726          #endif
+
+   \                                 In section .text, align 2, keep-with-next
+    727          void  BSP_LED_Off (CPU_INT08U led)
+    728          {
+   \                     BSP_LED_Off:
+   \   00000000   0xB580             PUSH     {R7,LR}
+    729              switch (led) {
+   \   00000002   0xB2C0             UXTB     R0,R0            ;; ZeroExt  R0,R0,#+24,#+24
+   \   00000004   0x2800             CMP      R0,#+0
+   \   00000006   0xD005             BEQ.N    ??BSP_LED_Off_0
+   \   00000008   0x2802             CMP      R0,#+2
+   \   0000000A   0xD00F             BEQ.N    ??BSP_LED_Off_1
+   \   0000000C   0xD308             BCC.N    ??BSP_LED_Off_2
+   \   0000000E   0x2803             CMP      R0,#+3
+   \   00000010   0xD011             BEQ.N    ??BSP_LED_Off_3
+   \   00000012   0xE016             B.N      ??BSP_LED_Off_4
+    730                  case 0:
+    731                       GPIO_SetBits(GPIOB, BSP_GPIOB_LED1 | BSP_GPIOB_LED2 | BSP_GPIOB_LED3);
+   \                     ??BSP_LED_Off_0:
+   \   00000014   0xF44F 0x7148      MOV      R1,#+800
+   \   00000018   0x....             LDR.N    R0,??DataTable3  ;; 0x40010c00
+   \   0000001A   0x.... 0x....      BL       GPIO_SetBits
+    732                       break;
+   \   0000001E   0xE010             B.N      ??BSP_LED_Off_5
+    733          
+    734                  case 1:
+    735                       GPIO_SetBits(GPIOB, BSP_GPIOB_LED1);
+   \                     ??BSP_LED_Off_2:
+   \   00000020   0xF44F 0x7100      MOV      R1,#+512
+   \   00000024   0x....             LDR.N    R0,??DataTable3  ;; 0x40010c00
+   \   00000026   0x.... 0x....      BL       GPIO_SetBits
+    736                       break;
+   \   0000002A   0xE00A             B.N      ??BSP_LED_Off_5
+    737          
+    738                  case 2:
+    739                       GPIO_SetBits(GPIOB, BSP_GPIOB_LED2);
+   \                     ??BSP_LED_Off_1:
+   \   0000002C   0x2120             MOVS     R1,#+32
+   \   0000002E   0x....             LDR.N    R0,??DataTable3  ;; 0x40010c00
+   \   00000030   0x.... 0x....      BL       GPIO_SetBits
+    740                       break;
+   \   00000034   0xE005             B.N      ??BSP_LED_Off_5
+    741          
+    742                  case 3:
+    743                       GPIO_SetBits(GPIOB, BSP_GPIOB_LED3);
+   \                     ??BSP_LED_Off_3:
+   \   00000036   0xF44F 0x7180      MOV      R1,#+256
+   \   0000003A   0x....             LDR.N    R0,??DataTable3  ;; 0x40010c00
+   \   0000003C   0x.... 0x....      BL       GPIO_SetBits
+    744                       break;
+   \   00000040   0xE7FF             B.N      ??BSP_LED_Off_5
+    745          
+    746                  default:
+    747                       break;
+    748              }
+    749          }
+   \                     ??BSP_LED_Off_4:
+   \                     ??BSP_LED_Off_5:
+   \   00000042   0xBD01             POP      {R0,PC}          ;; return
+    750          
+    751          /*
+    752          *********************************************************************************************************
+    753          *                                            BSP_LED_Toggle()
+    754          *
+    755          * Description : TOGGLE any or all the LEDs on the board.
+    756          *
+    757          * Argument(s) : led     The ID of the LED to control:
+    758          *
+    759          *                       0    TOGGLE all LEDs on the board
+    760          *                       1    TOGGLE LED 1
+    761          *                       2    TOGGLE LED 2
+    762          *                       3    TOGGLE LED 3
+    763          *                       4    TOGGLE LED 4
+    764          *
+    765          * Return(s)   : none.
+    766          *
+    767          * Caller(s)   : Application.
+    768          *
+    769          * Note(s)     : none.
+    770          *********************************************************************************************************
+    771          */
+    772          
+    773          //changed by SOO
+    774          #ifdef SOO
+    775          void  BSP_LED_Toggle (CPU_INT08U led)
+    776          {
+    777              CPU_INT32U  pins;
+    778          
+    779          
+    780              pins = GPIO_ReadOutputData(GPIOC);
+    781          
+    782              switch (led) {
+    783                  case 0:
+    784                       BSP_LED_Toggle(1);
+    785                       BSP_LED_Toggle(2);
+    786                       BSP_LED_Toggle(3);
+    787                       BSP_LED_Toggle(4);
+    788                       break;
+    789          
+    790                  case 1:
+    791                       if ((pins & BSP_GPIOC_LED1) == 0) {
+    792                           GPIO_SetBits(  GPIOC, BSP_GPIOC_LED1);
+    793                       } else {
+    794                           GPIO_ResetBits(GPIOC, BSP_GPIOC_LED1);
+    795                       }
+    796                      break;
+    797          
+    798                  case 2:
+    799                       if ((pins & BSP_GPIOC_LED2) == 0) {
+    800                           GPIO_SetBits(  GPIOC, BSP_GPIOC_LED2);
+    801                       } else {
+    802                           GPIO_ResetBits(GPIOC, BSP_GPIOC_LED2);
+    803                       }
+    804                      break;
+    805          
+    806                  case 3:
+    807                       if ((pins & BSP_GPIOC_LED3) == 0) {
+    808                           GPIO_SetBits(  GPIOC, BSP_GPIOC_LED3);
+    809                       } else {
+    810                           GPIO_ResetBits(GPIOC, BSP_GPIOC_LED3);
+    811                       }
+    812                      break;
+    813          
+    814                  case 4:
+    815                       if ((pins & BSP_GPIOC_LED4) == 0) {
+    816                           GPIO_SetBits(  GPIOC, BSP_GPIOC_LED4);
+    817                       } else {
+    818                           GPIO_ResetBits(GPIOC, BSP_GPIOC_LED4);
+    819                       }
+    820                      break;
+    821          
+    822                  default:
+    823                       break;
+    824              }
+    825          }
+    826          #endif
+
+   \                                 In section .text, align 2, keep-with-next
+    827          void  BSP_LED_Toggle (CPU_INT08U led)
+    828          {
+   \                     BSP_LED_Toggle:
+   \   00000000   0xB510             PUSH     {R4,LR}
+   \   00000002   0x0004             MOVS     R4,R0
+    829              CPU_INT32U  pins;
+    830          
+    831          
+    832              pins = GPIO_ReadOutputData(GPIOB);
+   \   00000004   0x....             LDR.N    R0,??DataTable3  ;; 0x40010c00
+   \   00000006   0x.... 0x....      BL       GPIO_ReadOutputData
+    833          
+    834              switch (led) {
+   \   0000000A   0xB2E4             UXTB     R4,R4            ;; ZeroExt  R4,R4,#+24,#+24
+   \   0000000C   0x2C00             CMP      R4,#+0
+   \   0000000E   0xD005             BEQ.N    ??BSP_LED_Toggle_0
+   \   00000010   0x2C02             CMP      R4,#+2
+   \   00000012   0xD01B             BEQ.N    ??BSP_LED_Toggle_1
+   \   00000014   0xD30C             BCC.N    ??BSP_LED_Toggle_2
+   \   00000016   0x2C03             CMP      R4,#+3
+   \   00000018   0xD024             BEQ.N    ??BSP_LED_Toggle_3
+   \   0000001A   0xE031             B.N      ??BSP_LED_Toggle_4
+    835                  case 0:
+    836                       BSP_LED_Toggle(1);
+   \                     ??BSP_LED_Toggle_0:
+   \   0000001C   0x2001             MOVS     R0,#+1
+   \   0000001E   0xF7FF 0xFFEF      BL       BSP_LED_Toggle
+    837                       BSP_LED_Toggle(2);
+   \   00000022   0x2002             MOVS     R0,#+2
+   \   00000024   0xF7FF 0xFFEC      BL       BSP_LED_Toggle
+    838                       BSP_LED_Toggle(3);
+   \   00000028   0x2003             MOVS     R0,#+3
+   \   0000002A   0xF7FF 0xFFE9      BL       BSP_LED_Toggle
+    839                       break;
+   \   0000002E   0xE027             B.N      ??BSP_LED_Toggle_5
+    840          
+    841                  case 1:
+    842                       if ((pins & BSP_GPIOB_LED1) == 0) {
+   \                     ??BSP_LED_Toggle_2:
+   \   00000030   0x0580             LSLS     R0,R0,#+22
+   \   00000032   0xD405             BMI.N    ??BSP_LED_Toggle_6
+    843                           GPIO_SetBits(  GPIOB, BSP_GPIOB_LED1);
+   \   00000034   0xF44F 0x7100      MOV      R1,#+512
+   \   00000038   0x....             LDR.N    R0,??DataTable3  ;; 0x40010c00
+   \   0000003A   0x.... 0x....      BL       GPIO_SetBits
+   \   0000003E   0xE004             B.N      ??BSP_LED_Toggle_7
+    844                       } else {
+    845                           GPIO_ResetBits(GPIOB, BSP_GPIOB_LED1);
+   \                     ??BSP_LED_Toggle_6:
+   \   00000040   0xF44F 0x7100      MOV      R1,#+512
+   \   00000044   0x....             LDR.N    R0,??DataTable3  ;; 0x40010c00
+   \   00000046   0x.... 0x....      BL       GPIO_ResetBits
+    846                       }
+    847                      break;
+   \                     ??BSP_LED_Toggle_7:
+   \   0000004A   0xE019             B.N      ??BSP_LED_Toggle_5
+    848          
+    849                  case 2:
+    850                       if ((pins & BSP_GPIOB_LED2) == 0) {
+   \                     ??BSP_LED_Toggle_1:
+   \   0000004C   0x0680             LSLS     R0,R0,#+26
+   \   0000004E   0xD404             BMI.N    ??BSP_LED_Toggle_8
+    851                           GPIO_SetBits(  GPIOB, BSP_GPIOB_LED2);
+   \   00000050   0x2120             MOVS     R1,#+32
+   \   00000052   0x....             LDR.N    R0,??DataTable3  ;; 0x40010c00
+   \   00000054   0x.... 0x....      BL       GPIO_SetBits
+   \   00000058   0xE003             B.N      ??BSP_LED_Toggle_9
+    852                       } else {
+    853                           GPIO_ResetBits(GPIOB, BSP_GPIOB_LED2);
+   \                     ??BSP_LED_Toggle_8:
+   \   0000005A   0x2120             MOVS     R1,#+32
+   \   0000005C   0x....             LDR.N    R0,??DataTable3  ;; 0x40010c00
+   \   0000005E   0x.... 0x....      BL       GPIO_ResetBits
+    854                       }
+    855                      break;
+   \                     ??BSP_LED_Toggle_9:
+   \   00000062   0xE00D             B.N      ??BSP_LED_Toggle_5
+    856          
+    857                  case 3:
+    858                       if ((pins & BSP_GPIOB_LED3) == 0) {
+   \                     ??BSP_LED_Toggle_3:
+   \   00000064   0x05C0             LSLS     R0,R0,#+23
+   \   00000066   0xD405             BMI.N    ??BSP_LED_Toggle_10
+    859                           GPIO_SetBits(  GPIOB, BSP_GPIOB_LED3);
+   \   00000068   0xF44F 0x7180      MOV      R1,#+256
+   \   0000006C   0x....             LDR.N    R0,??DataTable3  ;; 0x40010c00
+   \   0000006E   0x.... 0x....      BL       GPIO_SetBits
+   \   00000072   0xE004             B.N      ??BSP_LED_Toggle_11
+    860                       } else {
+    861                           GPIO_ResetBits(GPIOB, BSP_GPIOB_LED3);
+   \                     ??BSP_LED_Toggle_10:
+   \   00000074   0xF44F 0x7180      MOV      R1,#+256
+   \   00000078   0x....             LDR.N    R0,??DataTable3  ;; 0x40010c00
+   \   0000007A   0x.... 0x....      BL       GPIO_ResetBits
+    862                       }
+    863                      break;
+   \                     ??BSP_LED_Toggle_11:
+   \   0000007E   0xE7FF             B.N      ??BSP_LED_Toggle_5
+    864          
+    865                  default:
+    866                       break;
+    867              }
+    868          }
+   \                     ??BSP_LED_Toggle_4:
+   \                     ??BSP_LED_Toggle_5:
+   \   00000080   0xBD10             POP      {R4,PC}          ;; return
+    869          /*
+    870          *********************************************************************************************************
+    871          *********************************************************************************************************
+    872          *                                           OS PROBE FUNCTIONS
+    873          *********************************************************************************************************
+    874          *********************************************************************************************************
+    875          */
+    876          
+    877          /*
+    878          *********************************************************************************************************
+    879          *                                           OSProbe_TmrInit()
+    880          *
+    881          * Description : Select & initialize a timer for use with the uC/Probe Plug-In for uC/OS-II.
+    882          *
+    883          * Argument(s) : none.
+    884          *
+    885          * Return(s)   : none.
+    886          *
+    887          * Caller(s)   : OSProbe_Init().
+    888          *
+    889          * Note(s)     : none.
+    890          *********************************************************************************************************
+    891          */
+    892          
+    893          #if ((APP_OS_PROBE_EN   == DEF_ENABLED) && \
+    894               (OS_PROBE_HOOKS_EN == 1))
+
+   \                                 In section .text, align 2, keep-with-next
+    895          void  OSProbe_TmrInit (void)
+    896          {
+   \                     OSProbe_TmrInit:
+   \   00000000   0xB5E0             PUSH     {R5-R7,LR}
+    897              TIM_TimeBaseInitTypeDef  tim_init;
+    898          
+    899          
+    900              tim_init.TIM_Period        = 0xFFFF;
+   \   00000002   0xF64F 0x70FF      MOVW     R0,#+65535
+   \   00000006   0xF8AD 0x0004      STRH     R0,[SP, #+4]
+    901              tim_init.TIM_Prescaler     = 0x00;
+   \   0000000A   0x2000             MOVS     R0,#+0
+   \   0000000C   0xF8AD 0x0000      STRH     R0,[SP, #+0]
+    902              tim_init.TIM_ClockDivision = 0x0;
+   \   00000010   0x2000             MOVS     R0,#+0
+   \   00000012   0xF8AD 0x0006      STRH     R0,[SP, #+6]
+    903              tim_init.TIM_CounterMode   = TIM_CounterMode_Up;
+   \   00000016   0x2000             MOVS     R0,#+0
+   \   00000018   0xF8AD 0x0002      STRH     R0,[SP, #+2]
+    904          
+    905          #if (OS_PROBE_TIMER_SEL == 2)
+    906              RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);
+   \   0000001C   0x2101             MOVS     R1,#+1
+   \   0000001E   0x2001             MOVS     R0,#+1
+   \   00000020   0x.... 0x....      BL       RCC_APB1PeriphClockCmd
+    907          
+    908              TIM_TimeBaseInit(TIM2, &tim_init);
+   \   00000024   0xA900             ADD      R1,SP,#+0
+   \   00000026   0xF05F 0x4080      MOVS     R0,#+1073741824
+   \   0000002A   0x.... 0x....      BL       TIM_TimeBaseInit
+    909              TIM_SetCounter(TIM2, 0);
+   \   0000002E   0x2100             MOVS     R1,#+0
+   \   00000030   0xF05F 0x4080      MOVS     R0,#+1073741824
+   \   00000034   0x.... 0x....      BL       TIM_SetCounter
+    910              TIM_PrescalerConfig(TIM2, 256, TIM_PSCReloadMode_Immediate);
+   \   00000038   0x2201             MOVS     R2,#+1
+   \   0000003A   0xF44F 0x7180      MOV      R1,#+256
+   \   0000003E   0xF05F 0x4080      MOVS     R0,#+1073741824
+   \   00000042   0x.... 0x....      BL       TIM_PrescalerConfig
+    911              TIM_Cmd(TIM2, ENABLE);
+   \   00000046   0x2101             MOVS     R1,#+1
+   \   00000048   0xF05F 0x4080      MOVS     R0,#+1073741824
+   \   0000004C   0x.... 0x....      BL       TIM_Cmd
+    912          #elif (OS_PROBE_TIMER_SEL == 3)
+    913              RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3, ENABLE);
+    914          
+    915              TIM_TimeBaseInit(TIM3, &tim_init);
+    916              TIM_SetCounter(TIM3, 0);
+    917              TIM_PrescalerConfig(TIM3, 256, TIM_PSCReloadMode_Immediate);
+    918              TIM_Cmd(TIM3, ENABLE);
+    919          #elif (OS_PROBE_TIMER_SEL == 4)
+    920              RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM4, ENABLE);
+    921          
+    922              TIM_TimeBaseInit(TIM4, &tim_init);
+    923              TIM_SetCounter(TIM4, 0);
+    924              TIM_PrescalerConfig(TIM4, 256, TIM_PSCReloadMode_Immediate);
+    925              TIM_Cmd(TIM4, ENABLE);
+    926          #endif
+    927          }
+   \   00000050   0xBD07             POP      {R0-R2,PC}       ;; return
+    928          #endif
+    929          
+    930          /*
+    931          *********************************************************************************************************
+    932          *                                            OSProbe_TmrRd()
+    933          *
+    934          * Description : Read the current counts of a 16-bit free running timer.
+    935          *
+    936          * Argument(s) : none.
+    937          *
+    938          * Return(s)   : The 16-bit counts of the timer in a 32-bit variable.
+    939          *
+    940          * Caller(s)   : OSProbe_TimeGetCycles().
+    941          *
+    942          * Note(s)     : none.
+    943          *********************************************************************************************************
+    944          */
+    945          
+    946          #if ((APP_OS_PROBE_EN   == DEF_ENABLED) && \
+    947               (OS_PROBE_HOOKS_EN == 1))
+
+   \                                 In section .text, align 2, keep-with-next
+    948          CPU_INT32U  OSProbe_TmrRd (void)
+    949          {
+   \                     OSProbe_TmrRd:
+   \   00000000   0xB580             PUSH     {R7,LR}
+    950          #if (OS_PROBE_TIMER_SEL == 2)
+    951          
+    952              return ((CPU_INT32U)TIM_GetCounter(TIM2));
+   \   00000002   0xF05F 0x4080      MOVS     R0,#+1073741824
+   \   00000006   0x.... 0x....      BL       TIM_GetCounter
+   \   0000000A   0xBD02             POP      {R1,PC}          ;; return
+    953          
+    954          #elif (OS_PROBE_TIMER_SEL == 3)
+    955          
+    956              return ((CPU_INT32U)TIM_GetCounter(TIM3));
+    957          
+    958          #elif (OS_PROBE_TIMER_SEL == 4)
+    959          
+    960              return ((CPU_INT32U)TIM_GetCounter(TIM4));
+    961          
+    962          #endif
+    963          }
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable3:
+   \   00000000   0x40010C00         DC32     0x40010c00
+    964          #endif
+
+   Maximum stack usage in bytes:
+
+   .cstack Function
+   ------- --------
+      24   BSP_CPU_ClkFreq
+        24   -> RCC_GetClocksFreq
+       8   BSP_Init
+         8   -> BSP_LED_Init
+         8   -> FLASH_PrefetchBufferCmd
+         8   -> FLASH_SetLatency
+         8   -> RCC_ADCCLKConfig
+         8   -> RCC_DeInit
+         8   -> RCC_GetFlagStatus
+         8   -> RCC_GetSYSCLKSource
+         8   -> RCC_HCLKConfig
+         8   -> RCC_HSEConfig
+         8   -> RCC_PCLK1Config
+         8   -> RCC_PCLK2Config
+         8   -> RCC_PLLCmd
+         8   -> RCC_PLLConfig
+         8   -> RCC_SYSCLKConfig
+         8   -> RCC_WaitForHSEStartUp
+       8   BSP_LED_Init
+         8   -> GPIO_Init
+         8   -> RCC_APB2PeriphClockCmd
+       8   BSP_LED_Off
+         8   -> GPIO_SetBits
+       8   BSP_LED_On
+         8   -> GPIO_ResetBits
+       8   BSP_LED_Toggle
+         8   -> BSP_LED_Toggle
+         8   -> GPIO_ReadOutputData
+         8   -> GPIO_ResetBits
+         8   -> GPIO_SetBits
+      16   OSProbe_TmrInit
+        16   -> RCC_APB1PeriphClockCmd
+        16   -> TIM_Cmd
+        16   -> TIM_PrescalerConfig
+        16   -> TIM_SetCounter
+        16   -> TIM_TimeBaseInit
+       8   OSProbe_TmrRd
+         8   -> TIM_GetCounter
+       8   OS_CPU_SysTickClkFreq
+         8   -> BSP_CPU_ClkFreq
+
+
+   Section sizes:
+
+   Bytes  Function/Label
+   -----  --------------
+       4  ??DataTable3
+      16  BSP_CPU_ClkFreq
+     106  BSP_Init
+      40  BSP_LED_Init
+      68  BSP_LED_Off
+      68  BSP_LED_On
+     130  BSP_LED_Toggle
+      82  OSProbe_TmrInit
+      12  OSProbe_TmrRd
+       8  OS_CPU_SysTickClkFreq
+
+ 
+ 534 bytes in section .text
+ 
+ 534 bytes of CODE memory
+
+Errors: none
+Warnings: none
